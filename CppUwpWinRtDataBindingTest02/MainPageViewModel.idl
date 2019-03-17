@@ -1,0 +1,13 @@
+//import "oaidl.idl";
+//import "ocidl.idl";
+import "Audio.idl";
+
+namespace CppUwpWinRtDataBindingTest02
+{
+	//[default_interface]
+	runtimeclass MainPageViewModel
+	{
+		MainPageViewModel();
+		Audio Audio;
+	}
+}

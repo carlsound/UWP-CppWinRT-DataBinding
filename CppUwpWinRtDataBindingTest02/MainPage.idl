@@ -1,0 +1,13 @@
+//import "oaidl.idl";
+//import "ocidl.idl"; 
+import "MainPageViewModel.idl";
+
+namespace CppUwpWinRtDataBindingTest02
+{
+    [default_interface]
+    runtimeclass MainPage : Windows.UI.Xaml.Controls.Page
+    {
+        MainPage();
+		MainPageViewModel MainPageViewModel;
+    }
+}

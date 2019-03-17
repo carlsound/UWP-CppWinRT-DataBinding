@@ -1,0 +1,12 @@
+//import "oaidl.idl";
+//import "ocidl.idl";
+
+namespace CppUwpWinRtDataBindingTest02
+{
+	//[default_interface]
+	runtimeclass Audio : Windows.UI.Xaml.Data.INotifyPropertyChanged
+	{
+		Double Volume;
+		//event PropertyChangedEventHandler PropertyChanged;
+	}
+}
